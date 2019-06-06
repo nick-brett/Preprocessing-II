@@ -168,6 +168,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header nav {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-end;
+  align-content: center;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+header nav a:link {
+  text-decoration: none;
+  color: white;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

@@ -170,7 +170,8 @@ img {
 }
 header {
   height: 70px;
-  background-color: blue;
+  background-color: white;
+  border-bottom: 2px dashed sandybrown;
 }
 header nav {
   width: 500px;
@@ -187,12 +188,15 @@ header nav {
 }
 header nav a {
   color: black;
-  background-color: purple;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 header nav a:link {
   text-decoration: none;
+}
+header nav a:hover {
+  color: grey;
+  text-decoration: underline;
 }
 .footer {
   width: 100%;

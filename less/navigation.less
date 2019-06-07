@@ -2,7 +2,8 @@
 
 header {
     height: 70px;
-    background-color: blue;
+    background-color: white;
+    border-bottom: 2px dashed sandybrown;
     nav{
         width: 500px;
         border: 2px, solid, red;
@@ -19,11 +20,15 @@ header {
 
         a{
             color: black;
-            background-color: purple;
+            
             padding-left: 1rem;
             padding-right: 1rem;
             &:link {
                 text-decoration: none;
+            }
+            &:hover {
+                color: grey;
+                text-decoration: underline;
             }
         }
     }   
